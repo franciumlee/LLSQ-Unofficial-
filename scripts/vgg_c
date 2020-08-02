@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python ../main.py /data/cifar10 -b 128 -j 10 --gpu 0 --log-name ../logging/vgg7_small_reference_0714 --arch vgg7_q_fix_bias --lr 0.002 --debug --pretrained --epochs 400 --qw 32 --qa 32 --eval --resume XXX
