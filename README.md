@@ -14,7 +14,7 @@ I am working on reproducing this paper. This project is based on the [code](http
 - fp32 training 400 epochs
 - w4a4 training 100 epochs (Based on fp32)
 
-# Cite
+# Reference
 ```
 @inproceedings{
 Zhao2020Linear,
